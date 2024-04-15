@@ -1,17 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { CoursesPageComponent } from './courses.component';
 
-describe('CoursesComponent', () => {
-  let component: CoursesPageComponent;
-  let fixture: ComponentFixture<CoursesPageComponent>;
+import { MarmitaComponent } from './marmita.component';
+
+describe('MarmitaComponent', () => {
+  let component: MarmitaComponent;
+  let fixture: ComponentFixture<MarmitaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CoursesPageComponent]
+      imports: [MarmitaComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(CoursesPageComponent);
+    fixture = TestBed.createComponent(MarmitaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

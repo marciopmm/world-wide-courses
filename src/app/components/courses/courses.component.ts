@@ -19,18 +19,26 @@ export class CoursesComponent {
     },
     {
       id: 2,      
-      name: 'Marmita Fit Congelada',
-      description: 'Aprenda a fazer deliciosas marmitas congeladas em pouco tempo',
-      imgSource: '/assets/img/marmitafit.png',
-      link: 'https://go.hotmart.com/D92279287C',
+      name: 'Domine Sua Ansiedade',
+      description: 'Aprenda as melhores técnicas para vencer a ansiedade e alcançar a vida que sempre quis.',
+      imgSource: '/assets/img/ansiedade.png',
+      link: 'courses/ansiedade',
       delay: "0.3s"
     },
     {
-      id: 3,
+      id: 3,      
+      name: 'Marmita Fit Congelada',
+      description: 'Aprenda a fazer deliciosas marmitas congeladas em pouco tempo',
+      imgSource: '/assets/img/marmitafit.png',
+      link: 'courses/marmita',
+      delay: "0.3s"
+    },    
+    {
+      id: 4,
       name: 'Adestramento de Cães em Casa',
       description: 'Siga os passos deste e-book e tranforme seu cachorro bagunceiro em um cão obediente e dócil.',
       imgSource: '/assets/img/adestramento.png',
-      link: 'https://go.hotmart.com/L92278268H',
+      link: 'courses/adestramento',
       delay: "0.5s"
     }
   ];
