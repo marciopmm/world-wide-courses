@@ -1,5 +1,9 @@
+//const { Console } = require("console");
+
 (function ($) {
     "use strict";
+
+    console.log("Antes de main.js");
 
     // Spinner
     var spinner = function () {
@@ -67,7 +71,6 @@
         return false;
     });
 
-
     // Header carousel
     $(".header-carousel").owlCarousel({
         autoplay: true,
@@ -84,7 +87,7 @@
 
 
     // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
+    /*$(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
         center: true,
@@ -103,7 +106,7 @@
                 items:3
             }
         }
-    });
+    });*/
     
 })(jQuery);
 
