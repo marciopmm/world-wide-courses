@@ -11,8 +11,10 @@ export class MarmitaComponent implements OnInit {
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit() {
-    if (isPlatformBrowser(this.platformId)) {
-      window.location.href = "https://go.hotmart.com/D92279287C";
-    }
+    setTimeout(() => {
+      if (isPlatformBrowser(this.platformId)) {
+        window.location.href = "https://go.hotmart.com/D92279287C";
+      }
+    }, 2000);    
   }
 }
